@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="instance.js"></script>
+
+
+  <style>
+
+
+      @font-face {
+        font-family: 'alma_monoregular';
+        src: url('almamono-regular-webfont.woff2') format('woff2'),
+         url('almamono-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        background-color: black;
+        padding: 0;
+        margin: 0;
+      }
+
+      #container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        max-width: 100%;
+      }
+
+      #container div{
+        align-items: center;
+      }
+
+      div{
+        position: relative;
+      }
+
+      p{
+        font-family: "alma_monoregular";
+        color: #F7F7F7;
+        font-size: 12px;
+        z-index: 100;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+  </style>
+</head>
+
+<body>
+
+<div id="container">
+  <div id="c1"><p>Mic I</p></div>
+  <div id="c2"><p>Mic II</p></div>
+  <div id="c3"><p>Mic III</p></div>
+  <div id="c4"><p>Mic IV</p></div>
+</div>
+
+</body>
+</html>
