@@ -201,7 +201,7 @@ var mic4 = function(p) {
       }
       p.endShape();
 
-      if (volhistory.length > 600) {
+      if (volhistory.length > 40) {
         volhistory.splice(0, 1);
       }
 
